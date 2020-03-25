@@ -1,0 +1,16 @@
+Class: Employee
+
+Attributes:
+
+job_title (string)
+hourly_wage (float)
+on_the_clock (boolean)
+tables_in_section (array)
+tips_certified (boolean)
+
+Methods:
+
+get_promoted (changes 'job_title' and 'hourly_wage')
+clock_out (changes 'on_the_clock' to false)
+change_section (changes 'tables_in_section')
+attend_tips_class (changes 'tips_certified')
