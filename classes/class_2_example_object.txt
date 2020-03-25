@@ -1,0 +1,16 @@
+Instance: front_of_house
+
+Attributes:
+
+job_title: "Server"
+hourly_wage: 8.50
+on_the_clock: true
+tables_in_section: [10, 11, 12, 13, 14, 15]
+tips_certified: false
+
+Methods:
+
+get_promoted: job_title: "Manager" hourly_wage: 17.00
+clock_out: on_the_clock: false
+change_section: tables_in_section: [70, 71, 72, 73, 74]
+attend_tips_class: tips_certified: true 
