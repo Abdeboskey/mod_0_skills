@@ -1,0 +1,9 @@
+1. var food = "Mac & Cheese";
+2. var is_new = true;
+3. food = "Pizza";
+4. var num1 = 10;
+5. var num2 = 4;
+6. var num3 = num1 * num2;
+7. var movies = ["Terminator 2", "Evil Dead", "The Matrix", "Akira", "Fistful of Dollars"];
+9. var newmovies = movies.slice(0, 4);
+10. movies.length;
