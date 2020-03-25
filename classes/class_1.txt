@@ -10,6 +10,6 @@ is_full (boolean)
 Methods:
 
 use_drink_ticket (changes 'cost' to 0.00)
-order_virgin (changes 'alcohol' to false)
-order_different_drink (changes 'beverage_type', and 'full' attributes)
-ask_for_refill (changes 'full' to true)
+order_virgin (changes 'has_alcohol' to false)
+order_different_drink (changes 'beverage_type', and 'is_full' attributes)
+ask_for_refill (changes 'is_full' to true)
