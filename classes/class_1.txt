@@ -1,0 +1,15 @@
+Class: Beverage
+
+Attributes:
+
+cost (float)
+alcohol (boolean)
+beverage_type (string)
+full (boolean)
+
+Methods:
+
+use_drink_ticket (changes 'cost' to 0.00)
+order_virgin (changes 'alcohol' to false)
+order_different_drink (changes 'beverage_type', and 'full' attributes)
+ask_for_refill (changes 'full' to true)
