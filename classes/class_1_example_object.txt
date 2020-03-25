@@ -3,13 +3,13 @@ Instance: Piña Colada
 Attributes:
 
 cost: 7.99
-alcohol: true
+has_alcohol: true
 beverage_type: "Foofy Drink"
-full: false
+is_full: false
 
 Methods:
 
 use_drink_ticket: cost: 0.00
-order_virgin: alcohol: false
+order_virgin: has_alcohol: false
 order_different_drink: beverage_type: "Water"
-ask_for_refill: full: true
+ask_for_refill: is_full: true

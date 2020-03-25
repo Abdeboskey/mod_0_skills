@@ -3,9 +3,9 @@ Class: Beverage
 Attributes:
 
 cost (float)
-alcohol (boolean)
+has_alcohol (boolean)
 beverage_type (string)
-full (boolean)
+is_full (boolean)
 
 Methods:
 
